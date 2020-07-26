@@ -47,6 +47,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.vendor.radio.atfwd.start=false
 
-#Privaap Permissions
+#Privapp Permissions
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=log
+
+#DPI
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=400
