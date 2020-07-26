@@ -1,0 +1,6 @@
+allow perfservice same_process_hal_file:file { open } ;
+allow perfservice same_process_hal_file:file { read } ;
+allow perfservice vendor_file:file { execute } ;
+allow perfservice vendor_file:file { getattr } ;
+allow perfservice vendor_file:file { open } ;
+allow perfservice vendor_file:file { read } ;

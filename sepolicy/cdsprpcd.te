@@ -1,0 +1,4 @@
+allow cdsprpcd system_file:file { execute } ;
+allow cdsprpcd system_file:file { getattr } ;
+allow cdsprpcd system_file:file { open } ;
+allow cdsprpcd system_file:file { read } ;

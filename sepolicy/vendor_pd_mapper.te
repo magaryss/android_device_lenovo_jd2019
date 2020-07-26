@@ -1,0 +1,4 @@
+allow vendor_pd_mapper system_file:file { execute } ;
+allow vendor_pd_mapper system_file:file { getattr } ;
+allow vendor_pd_mapper system_file:file { open } ;
+allow vendor_pd_mapper system_file:file { read } ;

@@ -1,0 +1,7 @@
+allow remosaic_daemon default_prop:file { getattr } ;
+allow remosaic_daemon default_prop:file { open } ;
+allow remosaic_daemon default_prop:file { read } ;
+allow remosaic_daemon system_file:file { execute } ;
+allow remosaic_daemon system_file:file { getattr } ;
+allow remosaic_daemon system_file:file { open } ;
+allow remosaic_daemon system_file:file { read } ;

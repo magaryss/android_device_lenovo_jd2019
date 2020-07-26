@@ -1,0 +1,4 @@
+allow ssgqmigd system_file:file { execute } ;
+allow ssgqmigd system_file:file { getattr } ;
+allow ssgqmigd system_file:file { open } ;
+allow ssgqmigd system_file:file { read } ;

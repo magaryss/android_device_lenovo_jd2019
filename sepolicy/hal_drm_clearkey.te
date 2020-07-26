@@ -1,0 +1,2 @@
+allow hal_drm_clearkey system_file:file { execute } ;
+allow hal_drm_clearkey system_file:file { read } ;

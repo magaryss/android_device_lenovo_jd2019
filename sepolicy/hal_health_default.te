@@ -1,0 +1,2 @@
+allow hal_health_default system_file:file { execute } ;
+allow hal_health_default system_file:file { read } ;

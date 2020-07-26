@@ -1,0 +1,7 @@
+allow hal_gnss_qti system_file:file { execute } ;
+allow hal_gnss_qti system_file:file { getattr } ;
+allow hal_gnss_qti system_file:file { open } ;
+allow hal_gnss_qti system_file:file { read } ;
+allow hal_gnss_qti vendor_pd_locater_dbg_prop:file { getattr } ;
+allow hal_gnss_qti vendor_pd_locater_dbg_prop:file { open } ;
+allow hal_gnss_qti vendor_pd_locater_dbg_prop:file { read } ;

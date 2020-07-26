@@ -1,0 +1,6 @@
+allow untrusted_app preloads_data_file:dir { read } ;
+allow untrusted_app trace_data_file:dir { getattr } ;
+allow untrusted_app trace_data_file:dir { read } ;
+allow untrusted_app trace_data_file:dir { search } ;
+allow untrusted_app trace_data_file:dir { write } ;
+allow untrusted_app trace_data_file:file { open } ;

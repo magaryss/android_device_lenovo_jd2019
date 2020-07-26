@@ -1,0 +1,4 @@
+allow mlid system_file:file { execute } ;
+allow mlid system_file:file { getattr } ;
+allow mlid system_file:file { open } ;
+allow mlid system_file:file { read } ;

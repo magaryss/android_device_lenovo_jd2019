@@ -1,0 +1,3 @@
+allow time_daemon system_file:file { execute } ;
+allow time_daemon system_file:file { open } ;
+allow time_daemon system_file:file { read } ;

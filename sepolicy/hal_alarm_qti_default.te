@@ -1,0 +1,4 @@
+allow hal_alarm_qti_default system_file:file { execute } ;
+allow hal_alarm_qti_default system_file:file { getattr } ;
+allow hal_alarm_qti_default system_file:file { open } ;
+allow hal_alarm_qti_default system_file:file { read } ;

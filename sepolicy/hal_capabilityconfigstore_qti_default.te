@@ -1,0 +1,5 @@
+allow hal_capabilityconfigstore_qti_default system_file:file { getattr } ;
+allow hal_capabilityconfigstore_qti_default system_file:file { open } ;
+allow hal_capabilityconfigstore_qti_default vendor_cap_configstore_dbg_prop:file { getattr } ;
+allow hal_capabilityconfigstore_qti_default vendor_cap_configstore_dbg_prop:file { open } ;
+allow hal_capabilityconfigstore_qti_default vendor_cap_configstore_dbg_prop:file { read } ;

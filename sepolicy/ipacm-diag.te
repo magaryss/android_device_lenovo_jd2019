@@ -1,0 +1,7 @@
+allow ipacm-diag diag_device:chr_file { ioctl } ;
+allow ipacm-diag diag_device:chr_file { open } ;
+allow ipacm-diag diag_device:chr_file { read write } ;
+allow ipacm-diag system_file:file { execute } ;
+allow ipacm-diag system_file:file { getattr } ;
+allow ipacm-diag system_file:file { open } ;
+allow ipacm-diag system_file:file { read } ;

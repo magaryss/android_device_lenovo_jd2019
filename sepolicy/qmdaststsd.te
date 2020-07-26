@@ -1,0 +1,3 @@
+allow qdmastatsd system_file:file { getattr } ;
+allow qdmastatsd system_file:file { open } ;
+allow qdmastatsd system_file:file { read } ;

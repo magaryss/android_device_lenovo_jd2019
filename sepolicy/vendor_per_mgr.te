@@ -1,0 +1,4 @@
+allow vendor_per_mgr system_file:file { execute } ;
+allow vendor_per_mgr system_file:file { getattr } ;
+allow vendor_per_mgr system_file:file { open } ;
+allow vendor_per_mgr system_file:file { read } ;

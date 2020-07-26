@@ -1,0 +1,4 @@
+allow ipacm system_file:file { execute } ;
+allow ipacm system_file:file { getattr } ;
+allow ipacm system_file:file { open } ;
+allow ipacm system_file:file { read } ;

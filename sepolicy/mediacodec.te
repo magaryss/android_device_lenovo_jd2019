@@ -1,0 +1,5 @@
+allow mediacodec system_file:file { execute } ;
+allow mediacodec system_file:file { getattr } ;
+allow mediacodec system_file:file { open } ;
+allow mediacodec system_file:file { read } ;
+allow mediacodec sysfs_kgsl:dir { search } ;

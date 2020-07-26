@@ -1,0 +1,3 @@
+allow sxrd vendor_default_prop:file { getattr } ;
+allow sxrd vendor_default_prop:file { open } ;
+allow sxrd vendor_default_prop:file { read } ;

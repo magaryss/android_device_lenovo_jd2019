@@ -1,0 +1,4 @@
+allow vold vendor_file:file { execute } ;
+allow vold vendor_file:file { getattr } ;
+allow vold vendor_file:file { open } ;
+allow vold vendor_file:file { read } ;

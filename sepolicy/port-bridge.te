@@ -1,0 +1,4 @@
+allow port-bridge system_file:file { execute } ;
+allow port-bridge system_file:file { getattr } ;
+allow port-bridge system_file:file { open } ;
+allow port-bridge system_file:file { read } ;

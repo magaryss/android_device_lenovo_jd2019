@@ -1,0 +1,4 @@
+allow hal_gatekeeper_qti system_file:file { execute } ;
+allow hal_gatekeeper_qti system_file:file { getattr } ;
+allow hal_gatekeeper_qti system_file:file { open } ;
+allow hal_gatekeeper_qti system_file:file { read } ;

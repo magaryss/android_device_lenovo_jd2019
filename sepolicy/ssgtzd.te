@@ -1,0 +1,4 @@
+allow ssgtzd system_file:file { execute } ;
+allow ssgtzd system_file:file { getattr } ;
+allow ssgtzd system_file:file { open } ;
+allow ssgtzd system_file:file { read } ;

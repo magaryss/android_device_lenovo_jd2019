@@ -1,0 +1,7 @@
+allow flags_health_check adsprpc_prop:file { open } ;
+allow flags_health_check hwui_prop:file { getattr } ;
+allow flags_health_check hwui_prop:file { open } ;
+allow flags_health_check last_boot_reason_prop:file { getattr } ;
+allow flags_health_check last_boot_reason_prop:file { open } ;
+allow flags_health_check llkd_prop:file { getattr } ;
+allow flags_health_check llkd_prop:file { open } ;

@@ -1,0 +1,6 @@
+allow tee system_file:file { execute } ;
+allow tee system_file:file { getattr } ;
+allow tee system_file:file { open } ;
+allow tee system_file:file { read } ;
+allow tee tmpfs:dir { open } ;
+allow tee tmpfs:dir { read } ;

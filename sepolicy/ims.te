@@ -1,0 +1,7 @@
+allow ims diag_device:chr_file { ioctl } ;
+allow ims diag_device:chr_file { open } ;
+allow ims diag_device:chr_file { read write } ;
+allow ims system_file:file { execute } ;
+allow ims system_file:file { getattr } ;
+allow ims system_file:file { open } ;
+allow ims system_file:file { read } ;

@@ -1,0 +1,4 @@
+allow wfdvndservice system_file:file { execute } ;
+allow wfdvndservice system_file:file { getattr } ;
+allow wfdvndservice system_file:file { open } ;
+allow wfdvndservice system_file:file { read } ;

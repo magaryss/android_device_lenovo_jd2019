@@ -1,0 +1,4 @@
+allow vendor_modprobe system_file:file { execute } ;
+allow vendor_modprobe system_file:file { getattr } ;
+allow vendor_modprobe system_file:file { open } ;
+allow vendor_modprobe system_file:file { read } ;

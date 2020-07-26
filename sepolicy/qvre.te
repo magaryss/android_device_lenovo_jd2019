@@ -1,0 +1,3 @@
+allow qvrd qvr_prop:file { getattr } ;
+allow qvrd qvr_prop:file { open } ;
+allow qvrd qvr_prop:file { read } ;

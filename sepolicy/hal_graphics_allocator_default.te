@@ -1,0 +1,5 @@
+allow hal_graphics_allocator_default sysfs_kgsl:dir { search } ;
+allow hal_graphics_allocator_default system_file:file { execute } ;
+allow hal_graphics_allocator_default system_file:file { getattr } ;
+allow hal_graphics_allocator_default system_file:file { open } ;
+allow hal_graphics_allocator_default system_file:file { read } ;

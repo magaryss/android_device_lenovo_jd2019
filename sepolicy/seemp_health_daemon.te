@@ -1,0 +1,4 @@
+allow seemp_health_daemon system_file:file { execute } ;
+allow seemp_health_daemon system_file:file { getattr } ;
+allow seemp_health_daemon system_file:file { open } ;
+allow seemp_health_daemon system_file:file { read } ;

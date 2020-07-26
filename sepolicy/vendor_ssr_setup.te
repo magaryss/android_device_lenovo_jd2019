@@ -1,0 +1,6 @@
+allow vendor_ssr_setup sysfs:file { open } ;
+allow vendor_ssr_setup sysfs:file { write } ;
+allow vendor_ssr_setup system_file:file { execute } ;
+allow vendor_ssr_setup system_file:file { getattr } ;
+allow vendor_ssr_setup system_file:file { open } ;
+allow vendor_ssr_setup system_file:file { read } ;

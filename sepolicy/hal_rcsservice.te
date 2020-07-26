@@ -1,0 +1,6 @@
+allow hal_rcsservice diag_device:chr_file { open } ;
+allow hal_rcsservice diag_device:chr_file { read write } ;
+allow hal_rcsservice system_file:file { execute } ;
+allow hal_rcsservice system_file:file { getattr } ;
+allow hal_rcsservice system_file:file { open } ;
+allow hal_rcsservice system_file:file { read } ;

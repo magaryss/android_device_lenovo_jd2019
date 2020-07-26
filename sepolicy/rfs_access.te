@@ -1,0 +1,4 @@
+allow rfs_access system_file:file { execute } ;
+allow rfs_access system_file:file { getattr } ;
+allow rfs_access system_file:file { open } ;
+allow rfs_access system_file:file { read } ;

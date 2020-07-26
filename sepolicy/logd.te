@@ -1,0 +1,9 @@
+allow logd logdr_socket:sock_file { write } ;
+allow logd shell_data_file:dir { add_name } ;
+allow logd shell_data_file:dir { open } ;
+allow logd shell_data_file:dir { read } ;
+allow logd shell_data_file:dir { search } ;
+allow logd shell_data_file:dir { write } ;
+allow logd shell_data_file:file { append open } ;
+allow logd shell_data_file:file { create } ;
+allow logd shell_data_file:file { getattr } ;

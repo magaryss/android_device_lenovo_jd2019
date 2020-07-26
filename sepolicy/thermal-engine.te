@@ -1,0 +1,6 @@
+allow thermal-engine sysfs:dir { open } ;
+allow thermal-engine sysfs:dir { read } ;
+allow thermal-engine system_file:file { execute } ;
+allow thermal-engine system_file:file { getattr } ;
+allow thermal-engine system_file:file { open } ;
+allow thermal-engine system_file:file { read } ;

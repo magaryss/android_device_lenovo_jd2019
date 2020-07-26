@@ -1,0 +1,5 @@
+allow audioserver bootanim:binder { call } ;
+allow audioserver default_android_hwservice:hwservice_manager { find } ;
+allow audioserver vendor_default_prop:file { getattr } ;
+allow audioserver vendor_default_prop:file { open } ;
+allow audioserver vendor_default_prop:file { read } ;

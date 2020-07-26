@@ -1,0 +1,4 @@
+allow msm_irqbalanced system_file:file { execute } ;
+allow msm_irqbalanced system_file:file { getattr } ;
+allow msm_irqbalanced system_file:file { open } ;
+allow msm_irqbalanced system_file:file { read } ;

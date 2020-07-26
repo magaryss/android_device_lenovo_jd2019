@@ -1,0 +1,2 @@
+allow hal_esepowermanager_qti system_file:file { getattr } ;
+allow hal_esepowermanager_qti system_file:file { open } ;

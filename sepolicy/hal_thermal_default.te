@@ -1,0 +1,2 @@
+allow hal_thermal_default system_file:file { getattr } ;
+allow hal_thermal_default system_file:file { open } ;

@@ -1,0 +1,4 @@
+allow wifidisplayhalservice_qti system_file:file { execute } ;
+allow wifidisplayhalservice_qti system_file:file { getattr } ;
+allow wifidisplayhalservice_qti system_file:file { open } ;
+allow wifidisplayhalservice_qti system_file:file { read } ;

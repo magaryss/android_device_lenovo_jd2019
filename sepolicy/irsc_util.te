@@ -1,0 +1,4 @@
+allow irsc_util system_file:file { execute } ;
+allow irsc_util system_file:file { getattr } ;
+allow irsc_util system_file:file { open } ;
+allow irsc_util system_file:file { read } ;

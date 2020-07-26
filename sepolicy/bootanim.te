@@ -1,0 +1,6 @@
+allow bootanim bootanim:capability { dac_override } ;
+allow bootanim bootanim:capability { kill } ;
+allow bootanim sysfs_kgsl:dir { search } ;
+allow bootanim vendor_default_prop:file { getattr } ;
+allow bootanim vendor_default_prop:file { open } ;
+allow bootanim vendor_default_prop:file { read } ;

@@ -1,0 +1,11 @@
+allow qti-display shell_exec:file { execute } ;
+allow qti-display shell_exec:file { getattr } ;
+allow qti-display shell_exec:file { read } ;
+allow qti-display system_file:file { execute } ;
+allow qti-display system_file:file { getattr } ;
+allow qti-display system_file:file { open } ;
+allow qti-display system_file:file { read } ;
+allow qti-display toolbox_exec:file { execute } ;
+allow qti-display toolbox_exec:file { execute_no_trans } ;
+allow qti-display toolbox_exec:file { getattr } ;
+allow qti-display toolbox_exec:file { read open } ;

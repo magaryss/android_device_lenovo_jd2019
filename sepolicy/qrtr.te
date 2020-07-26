@@ -1,0 +1,4 @@
+allow qrtr system_file:file { execute } ;
+allow qrtr system_file:file { getattr } ;
+allow qrtr system_file:file { open } ;
+allow qrtr system_file:file { read } ;

@@ -1,0 +1,4 @@
+allow location system_file:file { execute } ;
+allow location system_file:file { getattr } ;
+allow location system_file:file { open } ;
+allow location system_file:file { read } ;

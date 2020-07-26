@@ -1,0 +1,7 @@
+allow hal_imsrtp diag_device:chr_file { ioctl } ;
+allow hal_imsrtp diag_device:chr_file { open } ;
+allow hal_imsrtp diag_device:chr_file { read write } ;
+allow hal_imsrtp system_file:file { execute } ;
+allow hal_imsrtp system_file:file { getattr } ;
+allow hal_imsrtp system_file:file { open } ;
+allow hal_imsrtp system_file:file { read } ;

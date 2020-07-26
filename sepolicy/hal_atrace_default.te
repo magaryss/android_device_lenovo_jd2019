@@ -1,0 +1,6 @@
+allow hal_atrace_default system_file:file { execute } ;
+allow hal_atrace_default system_file:file { getattr } ;
+allow hal_atrace_default system_file:file { open } ;
+allow hal_atrace_default system_file:file { read } ;
+allow hal_atrace_default debugfs_tracing_debug:file { open } ;
+allow hal_atrace_default debugfs_tracing_debug:file { write } ;

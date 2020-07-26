@@ -1,0 +1,5 @@
+allow netmgrd system_file:file { execute } ;
+allow netmgrd system_file:file { getattr } ;
+allow netmgrd system_file:file { open } ;
+allow netmgrd system_file:file { read } ;
+allow netmgrd system_file:file { read open } ;

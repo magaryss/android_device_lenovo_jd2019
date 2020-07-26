@@ -1,0 +1,4 @@
+allow atfwd system_file:file { execute } ;
+allow atfwd system_file:file { getattr } ;
+allow atfwd system_file:file { open } ;
+allow atfwd system_file:file { read } ;

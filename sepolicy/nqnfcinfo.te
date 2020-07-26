@@ -1,0 +1,4 @@
+allow nqnfcinfo system_file:file { execute } ;
+allow nqnfcinfo system_file:file { getattr } ;
+allow nqnfcinfo system_file:file { open } ;
+allow nqnfcinfo system_file:file { read } ;

@@ -1,0 +1,6 @@
+allow sensors diag_device:chr_file { ioctl } ;
+allow sensors diag_device:chr_file { open } ;
+allow sensors diag_device:chr_file { read write } ;
+allow sensors sensors_persist_file:fifo_file { open } ;
+allow sensors sensors_persist_file:fifo_file { read } ;
+allow sensors system_file:file { read } ;

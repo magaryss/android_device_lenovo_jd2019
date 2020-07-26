@@ -1,0 +1,7 @@
+allow cnd diag_device:chr_file { ioctl } ;
+allow cnd diag_device:chr_file { open } ;
+allow cnd diag_device:chr_file { read write } ;
+allow cnd system_file:file { execute } ;
+allow cnd system_file:file { getattr } ;
+allow cnd system_file:file { open } ;
+allow cnd system_file:file { read } ;

@@ -1,0 +1,4 @@
+allow tlocd system_file:file { execute } ;
+allow tlocd system_file:file { getattr } ;
+allow tlocd system_file:file { open } ;
+allow tlocd system_file:file { read } ;

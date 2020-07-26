@@ -1,0 +1,5 @@
+allow hal_bluetooth_qti system_file:file { read } ;
+allow hal_bluetooth_qti diag_device:chr_file { getattr } ;
+allow hal_bluetooth_qti diag_device:chr_file { ioctl } ;
+allow hal_bluetooth_qti diag_device:chr_file { open } ;
+allow hal_bluetooth_qti diag_device:chr_file { read write } ;

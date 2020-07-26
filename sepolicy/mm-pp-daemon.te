@@ -1,0 +1,4 @@
+allow mm-pp-daemon system_file:file { execute } ;
+allow mm-pp-daemon system_file:file { getattr } ;
+allow mm-pp-daemon system_file:file { open } ;
+allow mm-pp-daemon system_file:file { read } ;

@@ -1,0 +1,1 @@
+allow bluetooth mnt_media_rw_file:dir { getattr } ;allow bluetooth vendor_file:file { execute } ;allow bluetooth vendor_file:file { getattr } ;allow bluetooth vendor_file:file { open } ;allow bluetooth vendor_file:file { read } ;
