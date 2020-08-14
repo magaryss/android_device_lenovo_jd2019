@@ -28,9 +28,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pe
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
-# Camera
+# Camera & FullScreen
 PRODUCT_PACKAGES += \
-    Snap 
+    Snap \
+    FullScreen
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
