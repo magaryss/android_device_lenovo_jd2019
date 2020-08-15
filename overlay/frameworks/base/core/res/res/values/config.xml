@@ -645,8 +645,8 @@
     <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
     
     <!-- Add DeviceSettings To ZenHub-->
-    <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings</string>
-    <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.device.DOZE_SETTINGS</string>
+    <string name="config_device_parts_package_name" translatable="false">com.dsmartapps.root.kerneltweaker</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.dsmartapps.root.kerneltweaker.Activities.MainActivity</string>
 
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
