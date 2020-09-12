@@ -29,9 +29,17 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default
 
 PRODUCT_PACKAGES += \
-    Snap \
     FullScreen \
     KernelConfig
+
+# Camera
+ifeq ($(WITH_GAPPS),true)
+PRODUCT_PACKAGES += \
+    GCam
+else
+PRODUCT_PACKAGES += \
+    Camera2
+endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
